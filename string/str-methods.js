@@ -10,7 +10,7 @@ if (str1.localeCompare(str2, "el-GR") <0) {
 } else if (str1.localeCompare(str2, "el-GR") > 0 ) {
     console.log(str1 + " comes after " + str2);
 } else {
-    console.log(str1 + " and " +str2 +)
+    console.log(str1 + " and " + str2);
 }
 
 //Accesing characters
