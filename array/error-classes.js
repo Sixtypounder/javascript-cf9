@@ -44,6 +44,14 @@ function insert(arr, product) {
 try {
     insert(products, "Laptop");
 } catch (error) {
-    switch ()
-
+    switch (error.code) {
+        case "ProductAlreadyExists":
+            console.error("Handle product already exists error");
+            break;
+        case "IllegalArgument":
+            console.error("Handle illegal argument error");
+            break;
+        default:
+            console.error("Handle other errors");
+    }
 }
